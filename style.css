@@ -1,0 +1,182 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    }
+
+body{
+    background-color: rgb(207, 195, 180);
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+
+}
+/* blok1----------------------------------- */
+.kerel{
+    border: 5px solid rgb(190, 190, 190);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.cont1{
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 540px;
+    height: 420px;
+    background-color: white;
+    box-shadow:0px 2px 5px #9b9b9b;
+    margin-top: 50px;
+    line-height: 1.7em;
+    border-radius: 5px;
+    text-align: justify;
+    padding: 30px;
+
+}
+h1 {
+    padding: 15px 0px;
+    color: #e63a4f;  
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+  
+}
+.hatwee{
+    padding: 15px 0px;
+}
+.pinky{
+    background-color: #e63a4f;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #e63a4f;
+
+}
+button:hover{
+    background-color: crimson;
+    font-size: 16px;
+}
+/* -------------------blok2 */
+.cont2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    width: 600px;
+    height: 200px;
+    color: darkgrey;
+    text-align: center;
+    font-size: 8px;
+    box-shadow:0px 2px 5px #9b9b9b;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+a:active{
+    color: darkgrey;
+
+}
+a:link{
+    color: darkgrey;
+}
+a:visited{
+    color: darkgrey;
+
+}
+a:hover{
+    color: #e63a4f;
+}
+
+.cont22 a{
+    text-decoration: none;
+}
+/* blok3-------------------------- */
+ span{
+     background-color: rgb(185, 185, 185);
+     margin-right: 5px;
+ }
+.oke{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+ .cont3{
+     color: grey;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     flex-direction: column;
+     width: 600px;
+     margin-top: 10px;
+     background-color: white;
+     font-size: 18px;
+     line-height: 1.7em;
+     box-shadow:0px 2px 5px #9b9b9b;
+     margin-bottom: 50px;
+     border-radius: 5px;
+
+
+ }
+.space{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: justify;
+    width: 500px;
+
+}
+
+.hulot{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 30px;
+    text-align: justify;
+    width: 500px;
+
+
+}
+.alien{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 30px;
+    text-align: justify;
+    width: 500px;
+
+
+}
+.blokje1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    color: grey;
+    padding-left: 10px;
+}
+.blokje2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    color: grey;
+}
+.blokje3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    color: grey;
+}
+.foto{
+    width: 150px;
+    padding-right: 10px;
+}
